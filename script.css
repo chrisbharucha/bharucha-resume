@@ -1,0 +1,103 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(151, 220, 147);
+  padding-left: 30px;
+  padding-top: 20px;
+  margin-bottom: 100px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 45px;
+}
+
+.info {
+  margin-left: 50px;
+  margin-top: 10px;
+  padding-bottom: 10px; 
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: rgb(247, 207, 143);
+  width: 350px;
+  border-style: solid;
+  border-color: black;
+} 
+
+.email-container,
+.github-container,
+.cell-container {
+  display: inline-block;
+}
+
+.email-container {
+  width: 200px;
+}
+
+.email-github-flexbox {
+  display: flex;
+  align-items: top;
+}
+
+.email-flexbox,
+.cell-flexbox,
+.github-flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.github-container {
+  width: 100px;
+  margin-left: 20px;
+}
+
+.github-icon {
+  width: 30px;
+}
+
+.education-title,
+.technical-skills-title,
+.work-experience-title {
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 80px;
+}
+
+.education {
+  line-height: 10px;
+}
+
+.education .education-degree {
+  font-weight: 600;
+  font-style: italic;
+}
+
+
+.skills-table {
+  border-style: solid;
+  border-color: black;
+  background-color: coral;
+}
+
+.work-experience {
+  max-width: 730px;
+  min-width: 300px;
+}
+
+
+.teaching-textbooks,
+.capstone-project {
+  display: flex;
+  justify-content: space-between;
+}
+
+.teaching-textbooks-title,
+.capstone-project-title,
+.teaching-textbooks-role,
+.capstone-project-role {
+  font-weight: 600;
+}
+
+.capstone-project {
+  margin-top: 60px;
+}
